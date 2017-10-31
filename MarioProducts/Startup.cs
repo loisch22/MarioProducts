@@ -29,6 +29,10 @@ namespace MarioProducts
 					.AddDbContext<MarioProductsDbContext>(options =>
 											  options
 												   .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
+			
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+			   .AddEntityFrameworkStores<MarioProductsDbContext>()
+			   .AddDefaultTokenProviders();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
