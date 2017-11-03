@@ -23,7 +23,7 @@ _This site shows all of Mario's Specialty Food Products._
 |---|
 |1| Products and Reviews should be properly saved to the database. |
 |2| Average rating of a Product should be accurately computed |
-|3| Ratings can only be an integar between 1 and 5
+|3| Ratings can only be an integar between 1 and 5 
 |4| Reviews content should be between 50 and 250 character (an error message should show if it is not)|
 |5| The controllers should accurately return Products and Reviews dedicated routes |
 
@@ -34,8 +34,6 @@ Display all reviews for product on detail page
 After creating a review, redirect to specific product page with reviews
 Delete confirmation popup instead of seperate view
 
-## Known Bugs
-Edit review is not working
 
 
 #### There are two options to create the database:
