@@ -33,7 +33,11 @@ _Display all reviews for product on detail page_
 _After creating a review, redirect to specific product page with reviews_
 _Delete confirmation popup instead of seperate view_
 
-
+## Open Project 
+_Inside terminal run > dotnet restore_
+_Inside terminal run > dotnet build_
+_Inside terminal run > dotnet run_
+_Navigate to http://localhost:5000_
 
 #### There are two options to create the database:
 ##### 1. In MySQL
